@@ -25,10 +25,7 @@ if not TWITCH_TOKEN:
     print("Error: Missing Twitch access token.")
     exit()
 
-# Validate environment variables
-if not TWITCH_TOKEN:
-    print("Error: Missing Twitch access token.")
-    exit()
+
 
 class TwitchAPI(Client):
     async def get_software_and_dev_titles(self):
