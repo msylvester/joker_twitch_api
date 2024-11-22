@@ -1,0 +1,17 @@
+[project]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "new_joker"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12"
+openai = "*"
+requests = "*"
+
+[pypi-dependencies]
+twitchio = "~=2.1.0"
+
