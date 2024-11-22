@@ -1,10 +1,15 @@
 import asyncio
 from twitchio.client import Client
 from dotenv import load_dotenv
+'''
+
+"/Users/mikress/tokens_nov_21/.env"'''
+import sys
+from dotenv import load_dotenv
 import os
 
-# Path to the .env file
-token_file_path = "/Users/mikress/tokens_nov_21/.env"
+# Allow user to pass a custom path or use a default path
+token_file_path = sys.argv[1] if len(sys.argv) > 1 else "./.env"
 
 # Load environment variables
 try:
@@ -14,8 +19,11 @@ except Exception as e:
     print(f"Error loading tokens: {e}")
     exit()
 
-# Retrieve sensitive credentials securely
+# Retrieve the access token
 TWITCH_TOKEN = os.getenv("TWITCH_ACCESS_TOKEN")
+if not TWITCH_TOKEN:
+    print("Error: Missing Twitch access token.")
+    exit()
 
 # Validate environment variables
 if not TWITCH_TOKEN:
