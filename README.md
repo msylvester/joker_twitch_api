@@ -1,5 +1,3 @@
-# Twitch follow me on twitch 💯
-[krystal_mess323](https://www.twitch.tv/krystal_mess323)
 
 
 # 🎥 Twitch Software and Game Development Stream Fetcher
@@ -50,7 +48,8 @@ Before running this application, ensure you have the following:
 2. The script will fetch live streams in the "Software and Game Development" category and display their titles.
 
 ---
-
+## Follow me on twitch [krystal_mess323](https://www.twitch.tv/krystal_mess323)  💯
+<!-- 
 # 🃏 Joker Twitch API
 
-This repository is used to build LLMs leveraging Joker's intellectual property. 🤐 **Please handle with confidentiality.**
+This repository is used to build LLMs leveraging Joker's intellectual property. 🤐 **Please handle with confidentiality.** -->
