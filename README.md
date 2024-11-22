@@ -1,6 +1,13 @@
+# Twitch follow me on twitch 💯
+[krystal_mess323](https://www.twitch.tv/krystal_mess323)
+
+
 # 🎥 Twitch Software and Game Development Stream Fetcher
 
 This project fetches live stream titles from the "Software and Game Development" category on Twitch.
+
+
+
 
 ## 🛠️ Prerequisites
 
