@@ -2,9 +2,7 @@
 
 # 🎥 Twitch Software and Game Development Stream Fetcher
 
-This project fetches live stream titles from the "Software and Game Development" category on Twitch.
-
-
+This project fetches all the streamers in the software and dev category who are live and populates a mongodb database.
 
 
 ## 🛠️ Prerequisites
@@ -23,7 +21,8 @@ Before running this application, ensure you have the following:
     ```bash
     pixi new twitch-fetcher-env
     pixi activate twitch-fetcher-env
-    ```
+    ```:x:x
+    
 
 2. Install the required dependencies from the `.toml` file:
 
@@ -42,7 +41,7 @@ Before running this application, ensure you have the following:
 1. Run the script:
 
     ```bash
-    python <script-name>.py "~/path/to/.env"
+    python twitch_video_service.py
     ```
 
 2. The script will fetch live streams in the "Software and Game Development" category and display their titles.
